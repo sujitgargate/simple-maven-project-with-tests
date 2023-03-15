@@ -32,7 +32,7 @@ class Base {
     protected void run() {
         double r = Math.random();
         if (r < 0.0) {
-            pass("oops");
+            return;
         }
     }
 
